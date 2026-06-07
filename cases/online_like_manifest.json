@@ -1,0 +1,222 @@
+[
+  {
+    "name": "high_noise_seed601",
+    "seed": 601,
+    "tasks": 30,
+    "riders": 58,
+    "groups": 465,
+    "candidate_rows": 14093,
+    "avg_candidates_per_group": 30.308,
+    "group_counts": {
+      "1": 30,
+      "2": 435,
+      "3": 0,
+      "4": 0
+    },
+    "profile": {
+      "high_noise": true,
+      "low_willingness": false,
+      "scarce_couriers": false,
+      "pair_heavy": true
+    },
+    "file": "cases\\high_noise_seed601.txt"
+  },
+  {
+    "name": "large_seed301",
+    "seed": 301,
+    "tasks": 40,
+    "riders": 80,
+    "groups": 820,
+    "candidate_rows": 34533,
+    "avg_candidates_per_group": 42.113,
+    "group_counts": {
+      "1": 40,
+      "2": 780,
+      "3": 0,
+      "4": 0
+    },
+    "profile": {
+      "high_noise": false,
+      "low_willingness": false,
+      "scarce_couriers": false,
+      "pair_heavy": true
+    },
+    "file": "cases\\large_seed301.txt"
+  },
+  {
+    "name": "large_seed302",
+    "seed": 302,
+    "tasks": 40,
+    "riders": 78,
+    "groups": 820,
+    "candidate_rows": 32850,
+    "avg_candidates_per_group": 40.061,
+    "group_counts": {
+      "1": 40,
+      "2": 780,
+      "3": 0,
+      "4": 0
+    },
+    "profile": {
+      "high_noise": false,
+      "low_willingness": false,
+      "scarce_couriers": false,
+      "pair_heavy": true
+    },
+    "file": "cases\\large_seed302.txt"
+  },
+  {
+    "name": "low_willingness_seed501",
+    "seed": 501,
+    "tasks": 30,
+    "riders": 76,
+    "groups": 465,
+    "candidate_rows": 19264,
+    "avg_candidates_per_group": 41.428,
+    "group_counts": {
+      "1": 30,
+      "2": 435,
+      "3": 0,
+      "4": 0
+    },
+    "profile": {
+      "high_noise": false,
+      "low_willingness": true,
+      "scarce_couriers": false,
+      "pair_heavy": true
+    },
+    "file": "cases\\low_willingness_seed501.txt"
+  },
+  {
+    "name": "medium_seed201",
+    "seed": 201,
+    "tasks": 30,
+    "riders": 52,
+    "groups": 465,
+    "candidate_rows": 12603,
+    "avg_candidates_per_group": 27.103,
+    "group_counts": {
+      "1": 30,
+      "2": 435,
+      "3": 0,
+      "4": 0
+    },
+    "profile": {
+      "high_noise": false,
+      "low_willingness": false,
+      "scarce_couriers": false,
+      "pair_heavy": true
+    },
+    "file": "cases\\medium_seed201.txt"
+  },
+  {
+    "name": "medium_seed202",
+    "seed": 202,
+    "tasks": 30,
+    "riders": 49,
+    "groups": 465,
+    "candidate_rows": 11642,
+    "avg_candidates_per_group": 25.037,
+    "group_counts": {
+      "1": 30,
+      "2": 435,
+      "3": 0,
+      "4": 0
+    },
+    "profile": {
+      "high_noise": false,
+      "low_willingness": false,
+      "scarce_couriers": false,
+      "pair_heavy": true
+    },
+    "file": "cases\\medium_seed202.txt"
+  },
+  {
+    "name": "medium_seed203",
+    "seed": 203,
+    "tasks": 30,
+    "riders": 45,
+    "groups": 465,
+    "candidate_rows": 11100,
+    "avg_candidates_per_group": 23.871,
+    "group_counts": {
+      "1": 30,
+      "2": 435,
+      "3": 0,
+      "4": 0
+    },
+    "profile": {
+      "high_noise": false,
+      "low_willingness": false,
+      "scarce_couriers": false,
+      "pair_heavy": true
+    },
+    "file": "cases\\medium_seed203.txt"
+  },
+  {
+    "name": "scarce_couriers_seed401",
+    "seed": 401,
+    "tasks": 40,
+    "riders": 28,
+    "groups": 1090,
+    "candidate_rows": 17031,
+    "avg_candidates_per_group": 15.625,
+    "group_counts": {
+      "1": 40,
+      "2": 780,
+      "3": 180,
+      "4": 90
+    },
+    "profile": {
+      "high_noise": false,
+      "low_willingness": false,
+      "scarce_couriers": true,
+      "pair_heavy": true
+    },
+    "file": "cases\\scarce_couriers_seed401.txt"
+  },
+  {
+    "name": "small_seed100",
+    "seed": 100,
+    "tasks": 15,
+    "riders": 24,
+    "groups": 120,
+    "candidate_rows": 1545,
+    "avg_candidates_per_group": 12.875,
+    "group_counts": {
+      "1": 15,
+      "2": 105,
+      "3": 0,
+      "4": 0
+    },
+    "profile": {
+      "high_noise": false,
+      "low_willingness": false,
+      "scarce_couriers": false,
+      "pair_heavy": true
+    },
+    "file": "cases\\small_seed100.txt"
+  },
+  {
+    "name": "tiny_seed42",
+    "seed": 42,
+    "tasks": 6,
+    "riders": 9,
+    "groups": 21,
+    "candidate_rows": 163,
+    "avg_candidates_per_group": 7.762,
+    "group_counts": {
+      "1": 6,
+      "2": 15,
+      "3": 0,
+      "4": 0
+    },
+    "profile": {
+      "high_noise": false,
+      "low_willingness": false,
+      "scarce_couriers": false,
+      "pair_heavy": true
+    },
+    "file": "cases\\tiny_seed42.txt"
+  }
+]
