@@ -26,9 +26,10 @@ auto_solver/
 ├── requirements.txt                 # Python依赖
 ├── setup_python36_judge_env.bat     # Python3.6评测环境初始化脚本
 ├── start_dashboard.bat              # Dashboard启动脚本
+├── final_generated.py               # 上传在线评测系统的代码文件
 ├── algorithm_components/            # 供LLM参考和组合的算法素材
 ├── cases/                           # 本地测试案例
-└── report/                            # 项目报告和图示材料
+└── AutoSolver Agent技术报告/         # 项目报告
 ```
 
 ## 环境要求
