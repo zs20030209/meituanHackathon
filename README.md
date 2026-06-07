@@ -28,7 +28,6 @@ auto_solver/
 ├── start_dashboard.bat              # Dashboard启动脚本
 ├── algorithm_components/            # 供LLM参考和组合的算法素材
 ├── cases/                           # 本地测试案例
-├── generated_solvers/               # 最终和中间生成求解器
 └── report/                            # 项目报告和图示材料
 ```
 
