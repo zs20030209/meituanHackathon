@@ -29,8 +29,7 @@ auto_solver/
 ├── algorithm_components/            # 供LLM参考和组合的算法素材
 ├── cases/                           # 本地测试案例
 ├── generated_solvers/               # 最终和中间生成求解器
-├── agent_runs/                      # 每次运行的日志、候选代码和摘要
-└── 报告/                            # 项目报告和图示材料
+└── report/                            # 项目报告和图示材料
 ```
 
 ## 环境要求
@@ -176,24 +175,3 @@ $$
 | `05_local_search.py` | 局部替换、骑手重排、LNS和结果打磨 |
 | `06_search_orchestration.py` | 退火、搜索调度和历史搜索素材 |
 
-## 上传GitHub前建议
-
-上传前建议保留源码、案例、依赖文件、报告和最终生成解，同时排除缓存、虚拟环境、运行历史和密钥文件。尤其不要提交`deepseek_api_key.txt`中的真实API密钥。
-
-推荐加入`.gitignore`的内容包括：
-
-```gitignore
-__pycache__/
-*.pyc
-.venv36/
-agent_runs/
-streamlit_dashboard.*.log
-deepseek_api_key.txt
-报告/~$*.docx
-```
-
-如果需要展示实验过程，可以保留部分`agent_runs`摘要文件，但不建议把所有候选代码和日志全部上传。
-
-## 许可证
-
-本项目当前未声明许可证。上传到公开仓库前，建议根据课程、比赛或个人开源需求补充`LICENSE`文件。
