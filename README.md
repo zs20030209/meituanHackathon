@@ -51,7 +51,7 @@ pip install -r requirements.txt
 
 ## API密钥配置
 
-默认情况下，程序会读取项目根目录下的`deepseek_api_key.txt`作为API密钥文件。上传GitHub前不建议提交真实密钥，可以改用本地私有文件或环境变量管理。
+默认情况下，程序会读取项目根目录下的`deepseek_api_key.txt`作为API密钥文件。
 
 默认配置如下：
 
@@ -61,7 +61,6 @@ model = deepseek-v4-pro
 api_key_file = deepseek_api_key.txt
 ```
 
-如果使用其他OpenAI兼容服务，可以通过命令行参数覆盖`--base-url`、`--model`和`--api-key-file`。
 
 ## 命令行运行
 
